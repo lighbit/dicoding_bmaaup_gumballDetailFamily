@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zulkarnaen.gumball.view.DetailGumballFamilyActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="280dp"
+        android:padding="5dp"
+        android:text="@string/gumball_text"
+        android:textColor="@color/blue"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="262dp"
+        android:layout_height="181dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/gumball"
+        android:padding="1dp"
+        tools:srcCompat="@drawable/gumball" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/accessibilityEventTypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp" />
+</FrameLayout>

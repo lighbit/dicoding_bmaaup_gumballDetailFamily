@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gumball Family</string>
+    <string name="gumballfamily">gumballFamily</string>
+    <string name="gumballremaks">gumball family remaks</string>
+    <string name="grid">Grid</string>
+    <string name="list">List</string>
+    <string name="CardView">with CardView</string>
+    <string name="nama">Nama</string>
+    <string name="remarks">Remarks</string>
+    <string name="detail">Detail</string>
+    <string name="share">Share</string>
+    <string name="gumball">Gumball</string>
+    <string name="SELAMAT">SELAMAT</string>
+    <string name="berhasil_di_share">Berhasil di SHare!</string>
+    <string name="WELCOME">TextView</string>
+    <string name="gumball_text">THE AMAZING WORLD OF GUMBALL</string>
+</resources>
